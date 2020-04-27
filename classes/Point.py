@@ -1,16 +1,14 @@
 class Point(object):
-    _nom = "Dupont"
-    _solde = 1000
-    def __init__(self, nom, solde):
-        self._nom = nom
-        self._solde = solde
+    def __init__(self, x = 0, y = 0, z = 0):
+        self._x = x
+        self._y = y
+        self._z = z
 
-    def depot(self, nb):
-        self._solde += nb
-
-    def retrait(self, nb):
-        self._solde -= nb
-    
-    def affichage(self):
-        print("le solde du compte de " + self._nom + " est de ")
-        print(self._solde)
+    def toString(self):
+        x = '{:.2f}'.format(self._x)
+        y = '{:.2f}'.format(self._y)
+        z = '{:.2f}'.format(self._z)
+        if z > 0:
+            print("P(" + str(x) + ", " + str(y) +")")
+        else:
+            print("P(" + str(x) + ", " + str(y) + ", " + str(z) + ")")
