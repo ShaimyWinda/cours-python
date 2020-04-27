@@ -14,5 +14,7 @@ point1 = Point(10, -34.5)
 point1.toString()
 
 #Exercice heritage
-personne = Personne("AZIS", "Widad", DateDeNaissance(28,6,1997))
-personne.afficher()
+date = DateDeNaissance(28,6,1997)
+date.toString()
+#personne = Personne("AZIS", "Widad", DateDeNaissance(28,6,1997))
+#personne.afficher()
