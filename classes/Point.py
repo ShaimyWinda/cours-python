@@ -1,5 +1,7 @@
-class CompteBancaire(object):
-    def __init__(self, nom = "Dupont", solde = 1000):
+class Point(object):
+    _nom = "Dupont"
+    _solde = 1000
+    def __init__(self, nom, solde):
         self._nom = nom
         self._solde = solde
 

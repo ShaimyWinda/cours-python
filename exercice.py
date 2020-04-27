@@ -14,6 +14,6 @@ mot = mot[-1]
 print(mot)
 
 #Exercice compte bancaire
-compte1 = CompteBancaire("Winda", 2000)
+compte1 = CompteBancaire()
 compte1.depot(900)
 compte1.affichage()
