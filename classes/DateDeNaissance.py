@@ -8,4 +8,4 @@ class DateDeNaissance(object):
         jour = str(self._jour)
         mois = str(self._mois)
         annee = str(self._annee)
-        print(jour + " / " + mois + " / " + annee + " / ")
+        return jour + " / " + mois + " / " + annee

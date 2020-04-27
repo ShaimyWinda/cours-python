@@ -1,12 +1,10 @@
-from DateDeNaissance import DateDeNaissance
-
-class Personne(DateDeNaissance):
-    def __init__(self, nom, prenom, DateDeNaissance):
+class Personne():
+    def __init__(self, nom, prenom, dateNaissance):
         self._nom = nom
         self._prenom = prenom
+        self._dateNaissance = dateNaissance
 
     def afficher(self):
-        dateNaissance = DateDeNaissance.toString()
-        print("Nom : " + nom)
-        print("Prenom : " + prenom)
-        print("Date de naissance : " + dateNaissance)
+        print("Nom : " + self._nom)
+        print("Prenom : " + self._prenom)
+        print("Date de naissance : " + self._dateNaissance)
