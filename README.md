@@ -10,7 +10,7 @@ Dans mon cas, je prends l'image ubuntu donc ```docker run -ti ubuntu```. Docker 
 
 ```docker pull container```  --> récupérer une image dans le docker
 
-```docker rm container```  --> supprimer le conteneur
+```docker rm id_container```  --> supprimer le conteneur
 
 ```docker start -a -i id_conteneur```  --> pour démarrer le conteneur
 
