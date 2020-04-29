@@ -2,7 +2,7 @@
 
 ## Commande Docker
 
-```docker run -ti container```  --> pour lancer le conteneur Docker (-ti = lancer le terminal et le laisser ouvert)
+```docker run -ti container```  --> pour créer et lancer le conteneur Docker (-ti = lancer le terminal et le laisser ouvert)
 
 Dans mon cas, je prends l'image ubuntu donc ```docker run -ti ubuntu```. Docker va télécharger image ubuntu. On remarque aussi lorsqu'on lance deux fois la commande, ca va créer un nouveau conteneur
 
