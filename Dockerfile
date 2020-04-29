@@ -8,6 +8,10 @@ RUN apt-get update \
 
 RUN pip3 install jupyter ipython
 
+RUN pip3 freeze > requirements.txt
+
 RUN git clone https://github.com/ShaimyWinda/cours-python.git
+
+RUN jupyter notebook --ip=127.0.0.1 --port=3000 --allow-root
 
 EXPOSE 3000
